@@ -39,6 +39,7 @@ var color = prompt(`Plese Select a Color Red,Yellow,green`,`Blue`);
 if(color == "red"){
    alert(`Must Stop`)
    document.write(` 
+   <center>
    <div class="table1">
       <table border="1px">
        <tr class="tr0">
@@ -50,11 +51,13 @@ if(color == "red"){
           <td>Must Stop</td>
        </tr>
       </table> 
-   </div>`)
+   </div>
+   </center>`)
 }
 else if(color == "yellow"){
    alert(`Ready to Move`)
-   document.write(` 
+   document.write(`
+   <center>
 <div class="table2">
    <table border="1px">
     <tr class="tr0">
@@ -66,11 +69,13 @@ else if(color == "yellow"){
        <td>Ready to Move</td>
     </tr>
    </table> 
-</div>`)
+</div>
+</center>`)
 }
 else if(color == "green"){
    alert(`Move Now`)
    document.write(` 
+   <center>
 <div class="table3">
    <table border="1px">
     <tr class="tr0">
@@ -82,7 +87,8 @@ else if(color == "green"){
        <td>Move Now</td>
     </tr>
    </table> 
-</div>`)
+</div>
+</center>`)
 }
 else{
    document.write(`
